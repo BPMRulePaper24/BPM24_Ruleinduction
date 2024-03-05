@@ -1,0 +1,20 @@
+[project]
+name = "rulebenchmark"
+description = "Towards a Comprehensive Benchmark of Rule Induction Algorithms in BPM Use Cases"
+version = "1.0.0"
+
+dependencies = [
+    "pandas",
+    "numpy",
+    "scikit-learn",
+    "xgboost",
+    "corels",
+    "rulelearn"
+]
+
+[project.optional-dependencies]
+dev = []
+
+[build-system]
+build-backend = "flit_core.buildapi"
+requires = ["flit_core >=3.2,<4"]
